@@ -15,7 +15,7 @@ I dette prosjektet skal vi lage ontologi av fase definisjonene som er buildingSM
 
 ## Resultater fra testen 
 
-Resultatet fra testen er fire filer: 
+Resultatet fra testen er fire filer [her](filer): 
 
 1. Fasebetegnelsene fra bSN Guiden, basert på Information Delivery Methodology (idm) standarden (ISO 29481-1:2010), som er kalt for ```idm_stages.ttl```
 2. Fasebetegnelsene fra Neste Steg (fasenormen), som er kalt ```neste_steg.ttl```
