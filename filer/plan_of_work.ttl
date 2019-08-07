@@ -1,0 +1,37 @@
+@prefix eurotl: <http://www.roadotl.eu/def/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix plan_of_work: <https://ont.buildingsmart.no/plan_of_work/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+plan_of_work: a owl:ontology .
+
+plan_of_work:Stage_0 a eurotl:LifecyclePhase ;
+    rdfs:label "Identify client's Business Case and Strategic Brief and other core project requirements."@en .
+
+plan_of_work:Stage_1 a eurotl:LifecyclePhase ;
+    rdfs:label """Develop Project Objectives, including Quality Objectives and
+Project Outcomes, Sustainability Aspirations, Project Budget, other parameters or constraints and develop Initial Project Brief.
+Undertake Feasibility Studies and review of Site Information."""@en .
+
+plan_of_work:Stage_2 a eurotl:LifecyclePhase ;
+    rdfs:label """Prepare Concept Design, including outline proposals for structural design, building services systems, outline specifications and preliminary Cost Information along with relevant Project Strategies in accordance with Design Programme. Agree alterations to brief and issue Final Project
+Brief."""@en .
+
+plan_of_work:Stage_3 a eurotl:LifecyclePhase ;
+    rdfs:label "Prepare Developed Design, including coordinated and updated proposals for structural design, building services systems, outline specifications, Cost Information and Project Strategies in accordance with Design Programme."@en .
+
+plan_of_work:Stage_4 a eurotl:LifecyclePhase ;
+    rdfs:label "Prepare Technical Design in accordance with Design Responsibility Matrix and Project Strategies to include all architectural, structural and building services information, specialist subcontractor design and specifications, in accordance with Design Programme."@en .
+
+plan_of_work:Stage_5 a eurotl:LifecyclePhase ;
+    rdfs:label "Offsite manufacturing and onsite Construction in accordance with Construction Programme and resolution of Design Queries from site as they arise."@en .
+
+plan_of_work:Stage_6 a eurotl:LifecyclePhase ;
+    rdfs:label "Handover of building and conclusion of Building Contract."@en .
+
+plan_of_work:Stage_7 a eurotl:LifecyclePhase ;
+    rdfs:label "Undertake In Use services in accordance with Schedule of Services."@en .
+

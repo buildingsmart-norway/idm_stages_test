@@ -1,0 +1,98 @@
+@prefix eurotl: <http://www.roadotl.eu/def/> .
+@prefix idm_stage: <https://ont.buildingsmart.no/idm_stages/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+idm_stage: a owl:ontology .
+
+idm_stage:Stage_S00 a eurotl:LifecyclePhase ;
+    rdfs:label "Portfolio requirements"@en,
+        "Behov"@no ;
+    rdfs:comment "Establish the need for a project to satisfy the clients business requirement"@en,
+        "Definere overordnet krav til et prosjekt som svarer på byggherrens forretningsbehov. "@no .
+
+idm_stage:Stage_S01 a eurotl:LifecyclePhase ;
+    rdfs:label "Conception of need"@en,
+        "Konkretisere behov"@no ;
+    rdfs:comment "Identify potential solutions to the need and plan for feasibility"@en,
+        "Definere funksjoner som vil svare på krav definert i fase S00 og planlegge S02"@no .
+
+idm_stage:Stage_S02 a eurotl:LifecyclePhase ;
+    rdfs:label "Outline feasibility"@en,
+        "Mulighetsstudie"@no ;
+    rdfs:comment "Examine the feasibility of options presented in phase 1 and decide which of these should be considered for substantive feasibility"@en,
+        "Undersøke muligheten for å løsninger identifisert i fase 1 og velge vilke som skal videreføres. "@no .
+
+idm_stage:Stage_S03 a eurotl:LifecyclePhase ;
+    rdfs:label "Substantive feasibility"@en,
+        "Konkretisere gjennomførbarhet"@no ;
+    rdfs:comment "Gain financial approval"@en,
+        "Forberede gjennomføring og skaffe finansiering for prosjektering. "@no .
+
+idm_stage:Stage_S04 a eurotl:LifecyclePhase ;
+    rdfs:label "Outline conceptual design"@en,
+        "Skisseprosjekt"@no ;
+    rdfs:comment "Identify major design elements based on the options presented"@en,
+        "Identifisere overordnede bygningselementer basert på mulighetsstudien. "@no .
+
+idm_stage:Stage_S05 a eurotl:LifecyclePhase ;
+    rdfs:label "Full conceptual design"@en,
+        "Forprosjekt"@no ;
+    rdfs:comment "Conceptual design and all deliverables ready for detailed planning approval"@en,
+        "Konseptuelt prosjekt for godkjenning og planlegning av detaljprosjekt."@no .
+
+idm_stage:Stage_S06_1 a eurotl:LifecyclePhase ;
+    rdfs:label "Coordinated design"@en,
+        "Detaljprosjekt"@no ;
+    rdfs:comment """Fix all major design elements to allow the project to proceed.
+Gain full financial approval for the project"""@en,
+        """Låse alle overordnede bygningselementer.
+Skaffe finansiering til bygging. """@no .
+
+idm_stage:Stage_S06_2 a eurotl:LifecyclePhase ;
+    rdfs:label "Procurement"@en,
+        "Innkjøp"@no ;
+    rdfs:comment ""@en,
+        "Anskaffe entreprenør og underentreprenør til bygging. "@no .
+
+idm_stage:Stage_S07 a eurotl:LifecyclePhase ;
+    rdfs:label "Production Information"@en,
+        "Arbeidstegning"@no ;
+    rdfs:comment "Produce specifications, drawing, models and other information needed for planning and production"@en,
+        "Produsere grunnlag for produksjon."@no .
+
+idm_stage:Stage_S08_1 a eurotl:LifecyclePhase ;
+    rdfs:label "Construction"@en,
+        "Bygging"@no ;
+    rdfs:comment """Produce a product that satisfies all client requirements.
+"""@en,
+        "Bygge og montere bygget i henhold til bestillers krav. "@no .
+
+idm_stage:Stage_S08_2 a eurotl:LifecyclePhase ;
+    rdfs:label "Construction pre-fab"@en,
+        "Bygging prefab"@no ;
+    rdfs:comment """Produce pre-fabelements a product that satisfies all client requirements.
+"""@en,
+        "Produsere prefab komponenter for montasje på bygg."@no .
+
+idm_stage:Stage_S08_3 a eurotl:LifecyclePhase ;
+    rdfs:label "FM/Operation information handover"@en,
+        "FDV informasjon"@no ;
+    rdfs:comment "Handover the building as planned."@en,
+        "Innhente og strukturere produkt- og bygginformasjon"@no .
+
+idm_stage:Stage_S09 a eurotl:LifecyclePhase ;
+    rdfs:label "Operation and maintenance"@en,
+        "Drift og vedlikehold"@no ;
+    rdfs:comment "Operate and maintain the product effectively and efficiently."@en,
+        "Forvalte, drifte og vedlikeholde bygget. Bruke og vedlikeholde FDV dokumentasjon"@no .
+
+idm_stage:Stage_S10 a eurotl:LifecyclePhase ;
+    rdfs:label "Disposal"@en,
+        "Avhending"@no ;
+    rdfs:comment "Decommission, dismantle and dispose of the components of the project and the project itself according to environmental and health/safety rules"@en,
+        "Avhende bygget og dets enkeltdeler. "@no .
+

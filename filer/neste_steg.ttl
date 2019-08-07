@@ -1,0 +1,34 @@
+@prefix eurotl: <http://www.roadotl.eu/def/> .
+@prefix fasenorm: <https://ont.buildingsmart.no/fasenorm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fasenorm: a owl:ontology .
+
+fasenorm:Steg_1 a eurotl:LifecyclePhase ;
+    rdfs:label "Strategisk definisjon"@no .
+
+fasenorm:Steg_2 a eurotl:LifecyclePhase ;
+    rdfs:label "Programutvikling og konseptutvikling"@no .
+
+fasenorm:Steg_3 a eurotl:LifecyclePhase ;
+    rdfs:label "Bearbeidning av valgt konsept"@no .
+
+fasenorm:Steg_4 a eurotl:LifecyclePhase ;
+    rdfs:label "Detaljprosjektering"@no .
+
+fasenorm:Steg_5 a eurotl:LifecyclePhase ;
+    rdfs:label "Produksjon og leveranser"@no .
+
+fasenorm:Steg_6 a eurotl:LifecyclePhase ;
+    rdfs:label "Overlevering og ibruktakelse"@no .
+
+fasenorm:Steg_7 a eurotl:LifecyclePhase ;
+    rdfs:label "Bruk og forvaltning"@no .
+
+fasenorm:Steg_8 a eurotl:LifecyclePhase ;
+    rdfs:label "Avhending"@no .
+

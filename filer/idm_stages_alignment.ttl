@@ -1,0 +1,53 @@
+@prefix fasenorm: <https://ont.buildingsmart.no/fasenorm/> .
+@prefix idm_stage: <https://ont.buildingsmart.no/idm_stages/> .
+@prefix idm_stages_alignment: <https://ont.buildingsmart.no/idm_stages_alignment/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix plan_of_work: <https://ont.buildingsmart.no/plan_of_work/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+idm_stage:Stage_S00 a fasenorm:Steg_1,
+        plan_of_work:Stage_0 .
+
+idm_stage:Stage_S01 a fasenorm:Steg_1,
+        plan_of_work:Stage_0 .
+
+idm_stage:Stage_S02 a fasenorm:Steg_2,
+        plan_of_work:Stage_1 .
+
+idm_stage:Stage_S03 a fasenorm:Steg_2,
+        plan_of_work:Stage_1 .
+
+idm_stage:Stage_S04 a fasenorm:Steg_3,
+        plan_of_work:Stage_2 .
+
+idm_stage:Stage_S05 a fasenorm:Steg_3,
+        plan_of_work:Stage_3 .
+
+idm_stage:Stage_S06_1 a fasenorm:Steg_4,
+        plan_of_work:Stage_4 .
+
+idm_stage:Stage_S06_2 a fasenorm:Steg_4,
+        plan_of_work:Stage_4 .
+
+idm_stage:Stage_S07 a fasenorm:Steg_4,
+        plan_of_work:Stage_4 .
+
+idm_stage:Stage_S08_1 a fasenorm:Steg_5,
+        plan_of_work:Stage_5 .
+
+idm_stage:Stage_S08_2 a fasenorm:Steg_5,
+        plan_of_work:Stage_5 .
+
+idm_stage:Stage_S08_3 a fasenorm:Steg_6,
+        plan_of_work:Stage_6 .
+
+idm_stage:Stage_S09 a fasenorm:Steg_7,
+        plan_of_work:Stage_7 .
+
+idm_stage:Stage_S10 a fasenorm:Steg_8 .
+
+idm_stages_alignment: a owl:ontology .
+
